@@ -1,0 +1,113 @@
+@media screen and (max-width:600px) {
+    .box-image {
+        display: none;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    .box {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .servicebox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wadahservice{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bungkusdalam img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .bungkusdalam h2 {
+        font-size: 15px;
+    }
+
+    .collection {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 10px;
+    }
+
+    .collection img {
+        width: 250px;
+        height: 250px;
+        margin-top: 0;
+    }
+
+    .footer-all {
+        padding-top: 0;
+        justify-content: space-around;
+    }
+
+    .footer-right {
+        gap: 50px;
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .container{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 1800px;
+        margin:0 ;
+        gap: 50px;
+    }
+
+    .box {
+        margin: 0;
+    }
+
+    .box img {
+
+    }
+
+    .servicebox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .collection {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 10px;
+    }
+
+    .collection img {
+        width: 250px;
+        height: 250px;
+        margin-top: 0;
+    }
+}

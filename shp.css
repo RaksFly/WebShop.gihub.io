@@ -1,0 +1,248 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: white;
+}
+
+
+li {
+  list-style: none;
+  display: inline-flex;
+  margin: 20px;
+  font-size: 25px;
+  font-family: 'Fira Sans';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 1px 1px black;
+  background-color: white;
+  color: black;
+}
+
+.header-logo {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: 'Courgette';
+}
+
+.container {
+  display: flex;
+  gap: 15rem;
+  height: 980px;
+  border-bottom: 1px solid black;
+}
+
+.box {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.box img {
+  width: 390px;
+  height: 380px;
+  margin-top: 100px;
+  border: 2px solid black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+}
+
+.btn-shop a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.btn-shop {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  position: absolute;
+  padding: 20px 50px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.box button:hover {
+  background-color: rgb(117, 129, 131);
+  box-shadow: 0 0 15px rgb(74, 88, 88);
+}
+
+span {
+  color: rgb(57, 141, 197);
+}
+
+.box-image img {
+  width: 450px;
+  height: 450px;
+  margin-top: 150px;
+  box-shadow: 0px 0px 7px 2px black;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+section {
+  background-color: white;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.judul {
+  margin-top: 80px;
+}
+
+.judul h1 {
+  font-size: 40px;
+  font-family: 'Playpen Sans';
+}
+
+.judul h2 {
+  font-family: 'PT Sans Caption';
+}
+
+.servicebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.wadahservice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wadahservice h1 {
+  font-family: 'Yantramanav';
+}
+
+.wadahservice p {
+  font-size: 15px;
+  font-family: 'Lexend Deca';
+}
+
+.wadahservice img {
+  width: 300px;
+  height: 300px;
+}
+
+article {
+  background: white;
+}
+
+.bungkus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bungkusfashion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap ;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.bungkus h1 {
+  font-size: 40px;
+  margin-top: 100px;
+  font-family: 'Sawarabi Gothic';
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-shadow: 0px 8px 10px rgb(35, 37, 37)
+}
+
+.bungkusdalam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgb(231, 231, 231);
+}
+
+.bungkusdalam img {
+  width: 250px;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bungkusdalam h2 {
+  font-size: 23px;
+  font-family: 'Be Vietnam Pro';
+}
+
+aside {
+  background-color: rgb(230, 230, 230);
+  height: auto;
+}
+
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.collection img {
+  width: 380px;
+  height: 380px;
+  margin-top:100px;
+}
+
+.collection-box h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.btn-viewmore {
+  padding: 10px 60px;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 400px;
+}
+
+.footer-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.footer-right {
+display: flex;
+gap: 150px;
+}
